@@ -30,6 +30,7 @@ export default class Login extends Component {
                     placeholder="Password"
                     onChangeText={this.handlePass}
                     value={this.state.password}
+                    secureTextEntry
                 />
 
                 <TouchableOpacity style={styles.forgotPass}>
@@ -75,7 +76,8 @@ const styles = StyleSheet.create({
       padding: 10,
       height: 40,
       borderColor: 'black',
-      borderWidth: 1
+      borderWidth: 1,
+      borderRadius: 25
    },
    submitButton: {
       backgroundColor: 'black',
@@ -84,6 +86,7 @@ const styles = StyleSheet.create({
       justifyContent: 'center',
       alignItems: 'center',
       height: 40,
+      borderRadius: 25
    },
    submitButtonText: {
         color: 'white',
