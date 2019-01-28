@@ -22,13 +22,13 @@ const styles = StyleSheet.create({
     },
     welcome: {
         fontSize: 30,
-        textAlign: 'left',
+        textAlign: 'center',
         fontWeight: 'bold'
     },
     p: {
         color: 'rgba(0,0,0,0.5)',
         fontWeight: 'bold',
-        textAlign: 'left',
+        textAlign: 'center',
         fontSize: 15,
     }
 
